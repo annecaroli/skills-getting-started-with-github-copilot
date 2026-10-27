@@ -49,3 +49,12 @@ A aplicação usa um modelo de dados simples com identificadores significativos:
    - Série/Ano escolar
 
 Todos os dados são armazenados em memória, o que significa que os dados serão resetados quando o servidor reiniciar.
+
+## Testes
+
+Instale as dependências do projeto na raiz do repositório e execute os testes da API:
+
+```
+pip install -r requirements.txt
+python -m pytest
+```
